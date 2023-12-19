@@ -1,35 +1,37 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>螺纹钢</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&display=swap');
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+    }
+  </style>
 </head>
 <body>
-    <nav id="navbar">
-        <ul>
-            <li><a href="#quote">报价</a></li>
-            <li><a href="#strategy">策略</a></li>
-            <li><a href="#push">推送</a></li>
-        </ul>
-    </nav>
-
-    <div id="content">
-        <section id="quote">
-            <h2>报价</h2>
-            <!-- 报价内容 -->
-        </section>
-        <section id="strategy">
-            <h2>策略</h2>
-            <!-- 策略内容 -->
-        </section>
-        <section id="push">
-            <h2>推送</h2>
-            <!-- 推送内容 -->
-        </section>
+  <div class="max-w-2xl mx-auto">
+    <div class="text-center font-semibold text-xl py-4">赛区比赛现代会务</div>
+    <div class="flex justify-between items-center px-4 py-2">
+      <div>品种</div>
+      <div>最新价</div>
+      <div>涨跌</div>
+      <div>涨跌幅</div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="divide-y-2">
+      <!-- Repeat this block for each row in the table -->
+      <div class="flex justify-between items-center px-4 py-2">
+        <div>赛区比赛2312</div>
+        <div>3891.00</div>
+        <div>10.00</div>
+        <div>0.26%</div>
+      </div>
+      <!-- ... other rows ... -->
+    </div>
+  </div>
 </body>
 </html>
